@@ -1,11 +1,17 @@
 Package: Rmidterm
 Type: Package
-Title: What the Package Does (Title Case)
+Title: Physics grades analysis
 Version: 0.1.0
-Author: Who wrote it
-Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
-License: What license is it under?
+Author: Maria Giuseppina Brunelli 
+Maintainer: <marigiuseppinabrunelli@gmail.com>
+Description: This package imports the data relative the student's grade from the 
+             course "Introduction to physics" and analyzes the scores.
+             The average, the mean and median are computed to get a better sense of the
+             data distribution.
+             Finally an histogram is plotted, showing scores' frequencies, broken down
+             by grades. 
+License: MIT
 Encoding: UTF-8
 LazyData: true
+RoxygenNote: 7.0.2
+Imports: readr, ggplot2
