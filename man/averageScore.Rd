@@ -4,14 +4,12 @@
 \alias{averageScore}
 \title{Average Score}
 \usage{
-run the importData function to get a dataframe object to use for this function
-}
-\arguments{
-\item{df}{data frame containing grades' data}
+averageScore()
 }
 \value{
 average score (float)
 }
 \description{
-This function computes the average score
+This function computes the average score registerd in the course
+"Introduction to Physics"
 }

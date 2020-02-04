@@ -6,9 +6,7 @@
 \usage{
 gradesAnalysis()
 }
-\arguments{
-\item{none}{does not require parameters}
-}
 \description{
-This function analyzes physics's grades, and prints a report with average, mode and median
+This function analyzes physics's grades, and provides a report
+with average, mode and median
 }

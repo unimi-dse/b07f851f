@@ -9,9 +9,6 @@ getmode(v)
 \arguments{
 \item{v}{vector of numbers}
 }
-\value{
-mode
-}
 \description{
 This function computes the mode
 }

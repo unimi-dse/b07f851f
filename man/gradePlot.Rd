@@ -4,14 +4,12 @@
 \alias{gradePlot}
 \title{Grade Plot}
 \usage{
-run the importData function to get a dataframe object to use for this function
-}
-\arguments{
-\item{df}{data frame containing grads' data}
+gradePlot()
 }
 \value{
 plotted scores
 }
 \description{
 This function plots an histogram showing scores frequencies, divided by grades
+highlited in different colors
 }

@@ -4,14 +4,12 @@
 \alias{medianScore}
 \title{Median Score}
 \usage{
-run the importData function to get a dataframe object to use for this function
-}
-\arguments{
-\item{df}{data frame containing grades' data}
+medianScore()
 }
 \value{
 median score (float)
 }
 \description{
-This function computes the median score
+This function computes the median score registerd in the
+course "Introduction to Physics"
 }

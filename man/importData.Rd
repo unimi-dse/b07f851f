@@ -6,12 +6,6 @@
 \usage{
 importData()
 }
-\arguments{
-\item{none}{does not require parameters}
-}
-\value{
-dataframe containing imported data
-}
 \description{
-This function imports a file from GitHub, which contains physics' grades
+This function imports a file which contains physics' grades
 }

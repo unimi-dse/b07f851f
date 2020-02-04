@@ -4,14 +4,12 @@
 \alias{modeScore}
 \title{Mode Score}
 \usage{
-run the importData function to get a dataframe object to use for this function
-}
-\arguments{
-\item{df}{data frame containing grades' data}
+modeScore()
 }
 \value{
 mode score (float)
 }
 \description{
-This function computes the mode score
+This function computes the mode score registerd in the
+course "Introduction to Physics"
 }
