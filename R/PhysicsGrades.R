@@ -21,8 +21,8 @@ importData<-function(){
 #'@return average score (float)
 #'@export
 averageScore<-function(){
-  data("grades")
-  scores<- grades$Score
+  grad<-Rmidterm::grades
+  scores<- grad$Score
   averageS<-mean(scores)
   return(averageS)
 }
@@ -34,8 +34,8 @@ averageScore<-function(){
 #'@return median score (float)
 #'@export
 medianScore<-function(){
-  data("grades")
-  scores<- grades$Score
+  grad<-Rmidterm::grades
+  scores<- grad$Score
   medianS<-median(scores)
   return(medianS)
 }
@@ -56,8 +56,8 @@ getmode <- function(v) {
 #'@return mode score (float)
 #'@export
 modeScore<-function(){
-  data("grades")
-  scores<- grades$Score
+  grad<-Rmidterm::grades
+  scores<- grad$Score
   modeS<-getmode(scores)
   return(modeS)
 }
@@ -70,8 +70,8 @@ modeScore<-function(){
 #'@export
 #'@import fitdistrplus
 descriptiveStats<-function(){
-  data("grades")
-  descdist(grades$Score, boot=1000)
+  grad<-Rmidterm::grades
+  descdist(grad$Score, boot=1000)
 }
 
 
@@ -85,8 +85,8 @@ descriptiveStats<-function(){
 #'@export
 #'@import ggplot2
 gradePlot<-function(){
-  load("~/Rmidterm/data/grades.rda")
-  plotG<-ggplot(grades, aes(Score, colour=Grade))+ geom_bar()
+  grad<-Rmidterm::grades
+  plotG<-ggplot(grad, aes(Score, colour=Grade))+ geom_bar()
   return(plotG)
 }
 
@@ -98,8 +98,8 @@ gradePlot<-function(){
 #'@export
 #'@import fitdistrplus
 gradesEmpDistr<-function(){
-  data("grades")
-  plotdist(grades$Score, histo = TRUE, demp=TRUE)
+  grad<-Rmidterm::grades
+  plotdist(grad$Score, histo = TRUE, demp=TRUE)
 }
 
 #GradesFunction
